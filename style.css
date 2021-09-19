@@ -1,0 +1,19 @@
+#twitter{
+    height: 1000px;
+    width: 50%;
+  }
+#bird{
+    width: 20px;
+    height: 30px;
+    object-fit: fill;
+    object-position: 100% 100%;
+    align-self: middle;
+}
+.button1{
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    font-weight: 600;
