@@ -1,6 +1,7 @@
+
 #twitter{
-    height: 1000px;
-    width: 50%;
+    height: 800px;
+    width: 20%;
   }
 #bird{
     width: 20px;
@@ -19,7 +20,14 @@
     font-weight: 600;
 }
 .icon1{
-    width: 5%;
-    
-   
+    width: 5%;   
 }
+.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
